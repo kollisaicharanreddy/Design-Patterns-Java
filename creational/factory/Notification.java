@@ -1,4 +1,4 @@
-package creational.notification;
+package creational.factory;
 
 public interface Notification {
 

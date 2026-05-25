@@ -1,4 +1,4 @@
-package creational.notification;
+package creational.factory;
 
 public class PushNotification implements Notification {
 
