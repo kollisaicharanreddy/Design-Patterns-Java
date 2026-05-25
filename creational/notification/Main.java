@@ -13,5 +13,10 @@ public class Main {
                 NotificationFactory.createNotification("SMS");
 
         notification2.send("Your OTP is 4589");
+
+        Notification notification3 =
+                NotificationFactory.createNotification("PUSH");
+
+        notification3.send("You have a new message");
     }
 }
