@@ -1,0 +1,12 @@
+package structural.adapter;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        PaymentProcessor processor =
+                new PaymentAdapter();
+
+        processor.pay(2500);
+    }
+}
